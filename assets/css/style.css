@@ -1,8 +1,6 @@
 :root {
 
-  /**
-   * colors
-   */
+
 
   --united-nations-blue: hsl(52, 73%, 58%);
   --bright-navy-blue: hsl(45, 93%, 38%);
@@ -19,10 +17,7 @@
   --onyx: hsl(0, 0%, 25%);
   --jet: hsl(0, 0%, 20%);
 
-  /**
-   * typography
-   */
-
+ 
   --ff-poppins: "Poppins", sans-serif;
   --ff-montserrat: "Montserrat", sans-serif;
 
@@ -40,34 +35,20 @@
   --fw-700: 700;
   --fw-800: 800;
 
-  /**
-   * transition
-   */
+ 
 
   --transition: 0.25s ease-in-out;
 
-  /**
-   * spacing
-   */
 
   --section-padding: 60px;
 
-  /**
-   * border-radius
-   */
-
+ 
   --radius-15: 15px;
   --radius-25: 25px;
 
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -110,10 +91,6 @@ body { background: var(--white); }
 
 
 
-
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
 
 .container { padding-inline: 15px; }
 
@@ -187,11 +164,6 @@ body { background: var(--white); }
 
 
 
-
-
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
 
 .header {
   position: absolute;
@@ -354,12 +326,6 @@ body { background: var(--white); }
 
 
 
-
-
-/*-----------------------------------*\
- * #HERO
-\*-----------------------------------*/
-
 .hero {
   background-image: url("https://t4.ftcdn.net/jpg/06/40/31/45/360_F_640314583_bVltfku7Pw8vXzsrOYdYFi1KHDcfdYvx.jpg");
   background-repeat: no-repeat;
@@ -392,12 +358,6 @@ font-size: 40px; }
 }
 
 
-
-
-
-/*-----------------------------------*\
- * #TOUR SEARCH
-\*-----------------------------------*/
 
 .tour-search {
   background-color: #fceb9d;
@@ -440,11 +400,6 @@ font-size: 40px; }
 
 
 
-
-
-/*-----------------------------------*\
- * #POPULAR
-\*-----------------------------------*/
 
 .popular { padding-block: var(--section-padding); }
 
@@ -506,12 +461,6 @@ font-size: 40px; }
 .popular .btn { margin-inline: auto; }
 
 
-
-
-
-/*-----------------------------------*\
- * #PACKAGE
-\*-----------------------------------*/
 
 .package { padding-block: var(--section-padding); }
 
@@ -626,11 +575,6 @@ font-size: 40px; }
 
 
 
-
-/*-----------------------------------*\
- * #GALLERY
-\*-----------------------------------*/
-
 .gallery { padding-block: var(--section-padding); }
 
 .gallery-list {
@@ -657,11 +601,6 @@ font-size: 40px; }
 
 
 
-
-/*-----------------------------------*\
- * #CTA
-\*-----------------------------------*/
-
 .cta {
   background: var(--bright-navy-blue);
   padding-block: var(--section-padding);
@@ -673,11 +612,6 @@ font-size: 40px; }
 
 
 
-
-
-/*-----------------------------------*\
- * #FOOTER
-\*-----------------------------------*/
 
 .footer-top {
   background: var(--gunmetal);
@@ -805,11 +739,6 @@ address {
 
 
 
-
-/*-----------------------------------*\
- * #GO TO TOP
-\*-----------------------------------*/
-
 .go-top {
   position: fixed;
   bottom: 15px;
@@ -841,19 +770,8 @@ address {
 
 
 
-/*-----------------------------------*\
- * #MEDIA QUERIES
-\*-----------------------------------*/
-
-/**
- * responsive for larger than 580px screen
- */
 
 @media (min-width: 580px) {
-
-  /**
-   * REUSED STYLE
-   */
 
   .container {
     max-width: 580px;
@@ -875,9 +793,6 @@ address {
 
 
 
-  /**
-   * HEADER
-   */
 
   .header { padding-top: 83px; }
 
@@ -896,10 +811,6 @@ address {
 
 
 
-  /**
-   * HERO
-   */
-
   .hero {
     min-height: 800px;
     padding-top: 85px;
@@ -911,9 +822,6 @@ address {
 
 
 
-  /**
-   * TOUR SEARCH
-   */
 
   .tour-search-form {
     display: grid;
@@ -933,17 +841,9 @@ address {
 
 
 
-  /**
-   * POPULAR
-   */
-
   .popular-card .card-content { right: auto; }
 
 
-
-  /**
-   * FOOTER
-   */
 
   .footer .container {
     display: grid;
@@ -965,21 +865,13 @@ address {
 
 
 
-/**
- * responsive for larger than 768px screen
- */
 
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  
 
   :root {
 
-    /**
-     * typography
-     */
 
     --fs-5: 15px;
 
@@ -987,9 +879,6 @@ address {
 
 
 
-  /**
-   * REUSED STYLE
-   */
 
   .container { max-width: 800px; }
 
@@ -998,11 +887,6 @@ address {
     margin-inline: auto;
   }
 
-
-
-  /**
-   * HEADER
-   */
 
   .helpline-box {
     display: flex;
@@ -1021,10 +905,6 @@ address {
 
 
 
-  /**
-   * POPULAR
-   */
-
   .popular-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1036,11 +916,6 @@ address {
 
   .popular-card .card-content { right: 20px; }
 
-
-
-  /**
-   * PACKAGE
-   */
 
   .package-list { margin-bottom: 50px; }
 
@@ -1064,9 +939,6 @@ address {
 
 
 
-  /**
-   * GALLERY
-   */
 
   .gallery { padding-bottom: calc(var(--section-padding * 2)); }
 
@@ -1077,11 +949,6 @@ address {
 
   .gallery-image { border-radius: var(--radius-25); }
 
-
-
-  /**
-   * CTA
-   */
 
   .cta .container {
     display: flex;
@@ -1094,10 +961,6 @@ address {
   .cta .section-text { margin-inline: 0; }
 
 
-
-  /**
-   * FOOTER
-   */
 
   .form-wrapper {
     display: flex;
@@ -1116,23 +979,15 @@ address {
 
 
 
-/**
- * responsive for larger than 992px screen
- */
 
 @media (min-width: 992px) {
 
-  /**
-   * REUSED STYLE
-   */
+  
 
   .container { max-width: 1050px; }
 
 
 
-  /**
-   * HEADER
-   */
 
   .header.active .header-top {
     position: unset;
@@ -1189,17 +1044,12 @@ address {
 
 
 
-  /**
-   * HERO
-   */
+  
 
   .hero .container { max-width: 740px; }
 
 
 
-  /**
-   * TOUR SEARCH
-   */
 
   .tour-search-form { grid-template-columns: repeat(5, 1fr); }
 
@@ -1211,17 +1061,11 @@ address {
 
 
 
-  /**
-   * POPULAR
-   */
 
   .popular-list { grid-template-columns: repeat(3, 1fr); }
 
 
 
-  /**
-   * PACKAGE
-   */
 
   .meta-box { --fs-8: 13px; }
 
@@ -1229,17 +1073,12 @@ address {
 
 
 
-  /**
-   * CTA 
-   */
 
   .cta .section-title { max-width: 25ch; }
 
 
 
-  /**
-   * FOOTER
-   */
+  
 
   .footer-top .container {
     grid-template-columns: repeat(3, 1fr);
@@ -1258,31 +1097,22 @@ address {
 
 
 
-/**
- * responsive for larger than 1200px screen
- */
+
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+  
 
   :root {
 
-    /**
-     * spacing
-     */
-
+  
     --section-padding: 100px;
 
   }
 
 
 
-  /**
-   * REUSED STYLE
-   */
+ 
 
   .container { max-width: 1180px; }
 
